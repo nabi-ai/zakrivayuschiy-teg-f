@@ -4,3 +4,72 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-dark {
+    --page-background-image: 
+    repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px ), 
+    repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px ), 
+    linear-gradient( #007F0C 0,01%, #004306 100% );
+    --color-text-default: #00CC14;
+    --secondary-color: #00cc14;
+    --themes-background: #000;
+    --themes-main-color: #00CC14;
+    --font-weight-normal: 465;
+    --font-weight-bold: 785;
+    --label-shadow: #000;
+    --contour-color: #00cc14;
+    --secondary-color: #00cc14;
+    --sparks-color: #ff0000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --page-background-image: 
+        repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px ), 
+        repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px ), 
+        linear-gradient( #007F0C 0,01%, #004306 100% );
+        --color-text-default: #00CC14;
+        --secondary-color: #00cc14;
+        --themes-background: #000;
+        --themes-main-color: #00CC14;
+        --font-weight-normal: 465;
+        --font-weight-bold: 785;
+        --label-shadow: #000;
+        --contour-color: #00cc14;
+        --secondary-color: #00cc14;
+        --sparks-color: #ff0000;
+    }
+}
+
+:root.theme-light {
+    --page-background-image: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px ), 
+    repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px ), 
+    linear-gradient( #e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100% );
+    --color-text-default: #000;
+    --secondary-color: #fff;
+    --themes-background: #fff;
+    --themes-main-color: #000;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --label-shadow: #fff;
+    --secondary-color: #fff;
+    --contour-color: #000;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --page-background-image: 
+        repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px ), 
+        repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px ), 
+        linear-gradient( #e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100% );
+        --color-text-default: #000;
+        --secondary-color: #fff;
+        --themes-background: #fff;
+        --themes-main-color: #000;
+        --font-weight-normal: 400;
+        --font-weight-bold: 700;
+        --label-shadow: #fff;
+        --secondary-color: #fff;
+        --contour-color: #000;
+    }
+}

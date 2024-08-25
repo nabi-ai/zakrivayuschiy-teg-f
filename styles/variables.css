@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --font-main: "Inter-Flex-Variable";
+    --font-size-default: 18px;
+    --page-background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px ), 
+    repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px ), 
+    linear-gradient( #e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100% );
+    --color-text-default: #000;
+    --secondary-color: #fff;
+    --themes-background: #fff;
+    --themes-main-color: #000;
+    --font-family: "PressStart2P";
+    --font-weight-normal: 465;
+    --font-weight-bold: 785;
+    --label-shadow: #fff;
+    --contour-color: #000;
+    --secondary-color: #fff;
+    --sparks-color: #ff0000;
+    --backdrop-color: #000;
+}
