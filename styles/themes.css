@@ -13,11 +13,10 @@
     --secondary-color: #00cc14;
     --themes-background: #000;
     --themes-main-color: #00CC14;
-    --font-weight-normal: 465;
-    --font-weight-bold: 785;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
     --label-shadow: #000;
     --contour-color: #00cc14;
-    --secondary-color: #00cc14;
     --sparks-color: #ff0000;
 }
 
@@ -31,11 +30,10 @@
         --secondary-color: #00cc14;
         --themes-background: #000;
         --themes-main-color: #00CC14;
-        --font-weight-normal: 465;
-        --font-weight-bold: 785;
+        --font-weight-normal: 400;
+        --font-weight-bold: 700;
         --label-shadow: #000;
         --contour-color: #00cc14;
-        --secondary-color: #00cc14;
         --sparks-color: #ff0000;
     }
 }
@@ -52,7 +50,6 @@
     --font-weight-normal: 400;
     --font-weight-bold: 700;
     --label-shadow: #fff;
-    --secondary-color: #fff;
     --contour-color: #000;
 }
 
@@ -69,7 +66,6 @@
         --font-weight-normal: 400;
         --font-weight-bold: 700;
         --label-shadow: #fff;
-        --secondary-color: #fff;
         --contour-color: #000;
     }
 }
